@@ -1,4 +1,4 @@
-rosalind
-========
+#Rosalind solutions
+In this repository I will store my solutions to rosalind's problems.
 
-My solutions to Rosalind's problems - http://rosalind.info/
+##Currently solved:
