@@ -1,20 +1,20 @@
 ##Currently solved: 9
 
-* Counting DNA Nucleotides
+* __Counting DNA Nucleotides__
     * Language: Python
-* Transcribing DNA into RNA
+* __Transcribing DNA into RNA__
     * Language: Python
-* Complementing a Strand of DNA
+* __Complementing a Strand of DNA__
     * Language: Python
-* Computing GC Content
+* __Computing GC Content__
     * Language: Python
-* Counting Point Mutations
+* __Counting Point Mutations__
     * Language: Python
-* Finding a Motif in DNA
+* __Finding a Motif in DNA__
     * Language: Python
-* Overlap Graphs
+* __Overlap Graphs__
     * Language: Python
-* Enumerating Gene Orders
+* __Enumerating Gene Orders__
     * Language: Python
-* Protein Translation
+* __Protein Translation__
     * Language: Python
