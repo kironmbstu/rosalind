@@ -1,4 +1,4 @@
-##Currently solved: 9
+##Currently solved: 10
 
 * __Counting DNA Nucleotides__
     * Language: Python
@@ -17,4 +17,6 @@
 * __Enumerating Gene Orders__
     * Language: Python
 * __Protein Translation__
+    * Language: Python
+* __Mendel's First Law__
     * Language: Python

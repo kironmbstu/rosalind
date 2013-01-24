@@ -5,7 +5,7 @@ Return the probability that two randomly selected mating organisms
 will produce an individual possessing a dominant allele
 """
 
-f = open('rosalind_mendel.txt', 'r')
+f = open('rosalind_iprb.txt', 'r')
 sets = f.readlines()
 f.close()
 
@@ -16,4 +16,13 @@ for population in sets:
     pm = m/t
     pn = n/t
 
-    print (pk*pk) + (pk*pm)*2 + (pk*pn)*2 + (0.5*pm*0.5*pm) + (0.75*pm*pm)*2 + (0.5*pm*pn)*2
+    #Total probability
+    prob = 1
+    #Minus the probability of both parents being homozygous recessive
+    prob -= pn*((n-1)/(t-1))
+    #Minus twice the probability of one being homozygous recessive and the other
+    #one heterozygous with the recessive allele (this is the 0.5)
+    prob -= 2*pn*(m/(t-1))*0.5
+    #Minus the probability of both being heterozygous with the recessive allele (this is the 0.25)
+    prob -= pm*((m-1)/(t-1))*0.25
+    print prob
