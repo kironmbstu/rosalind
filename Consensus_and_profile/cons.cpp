@@ -3,6 +3,8 @@
 #include <vector>
 using namespace std;
 
+const int BASE_PAIRS = 4;
+
 char max(int consensus[], int size) {
     int mostCommon = 0;
     int mostCommon_position = 0;
@@ -37,7 +39,7 @@ int main() {
     int n, m;
     m = DNAs.size();
     n = int(DNA.size());
-    vector< vector<int> > cons (4, n);
+    vector< vector<int> > cons (BASE_PAIRS, n);
     int result[n];
     for (int i = 0; i < n; i++) result[i] = 0;
     for (int i = 0; i < m; i++) {
@@ -60,10 +62,10 @@ int main() {
     //Determine the most common BP
     for (int i = 0; i < n; i++)
     {
-        int acgt[4];
-        for (int j = 0; j < 4; j++)
+        int acgt[BASE_PAIRS];
+        for (int j = 0; j < BASE_PAIRS; j++)
             acgt[j] = cons[j][i];
-        cout << max(acgt, 4);
+        cout << max(acgt, BASE_PAIRS);
     }
     cout << endl;
 }
