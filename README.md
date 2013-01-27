@@ -20,3 +20,5 @@
     * Language: Python
 * __Mendel's First Law__
     * Language: Python
+* __Consensus and profile__
+    * Language: C++
