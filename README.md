@@ -1,4 +1,4 @@
-##Currently solved: 10
+##Currently solved: 11
 
 * __Counting DNA Nucleotides__
     * Language: Python
