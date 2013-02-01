@@ -1,4 +1,4 @@
-##Currently solved: 11
+##Currently solved: 12
 
 * __Counting DNA Nucleotides__
     * Language: Python
@@ -22,3 +22,5 @@
     * Language: Python
 * __Consensus and profile__
     * Language: C++/Python
+* __Calculating expected offspring__
+    * Language: Python
