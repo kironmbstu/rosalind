@@ -1,4 +1,4 @@
-##Currently solved: 12
+##Currently solved: 13
 
 * __Counting DNA Nucleotides__
     * Language: Python
@@ -24,3 +24,5 @@
     * Language: C++/Python
 * __Calculating expected offspring__
     * Language: Python
+* __Rabbits and Recurrence Relations__
+    * Language: Python/C++
