@@ -1,4 +1,4 @@
-##Currently solved: 13
+##Currently solved: 14
 
 * __Counting DNA Nucleotides__
     * Language: Python
@@ -26,3 +26,5 @@
     * Language: Python
 * __Rabbits and Recurrence Relations__
     * Language: Python/C++
+* __Mortal Fibonacci Rabbits__
+    * Language: Python
